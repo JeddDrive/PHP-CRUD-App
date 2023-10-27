@@ -1,0 +1,178 @@
+#theBody {
+    font-size: 1.25em;
+    line-height: 1.3;
+    color: #121212;
+    width: 85%;
+    margin: auto;
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    background-color: #eaebec;
+}
+
+#mainHeading {
+    font-family: 'Pixelify Sans', 'Lucida Sans', 'Lucida Sans Regular', Geneva, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+table {
+    margin-top: 1.5rem;
+    margin-bottom: 3em;
+}
+
+table,
+td,
+th {
+    border: solid thin #525151;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 0.55em;
+    text-align: center;
+}
+
+th {
+    background-color: #3d3d50;
+    color: #f7f2f2;
+    font-weight: bold;
+}
+
+tr:not(:first-child) {
+    cursor: pointer;
+}
+
+input,
+select {
+    font-size: 1rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputLabel {
+    width: 125px;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.inputField {
+    float: left;
+    margin-bottom: 0.6em;
+}
+
+input {
+    width: 17rem;
+}
+
+input:read-only {
+    background-color: #c3c0c0;
+    color: black;
+    font-weight: bold;
+}
+
+input:focus,
+select:focus {
+    background-color: #cdffd0;
+}
+
+input:read-only:focus {
+    background-color: #c3c0c0;
+    outline: none;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.mainBtn {
+    background-color: #44ea92;
+    color: black;
+    font-weight: bold;
+    padding: 1em 2em;
+    margin-right: 0.7em;
+}
+
+.mainBtn:hover:not(:disabled) {
+    background-color: #1f5c47;
+    color: whitesmoke;
+    transition: all 0.3s 0.1s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0.5em 0.5em -0.3em #87f174;
+}
+
+.mainBtn:disabled {
+    background-color: #6d6c6c;
+    cursor: default;
+}
+
+#addButton,
+#deleteButton {
+    margin-right: 6em;
+}
+
+#loadButton {
+    background-color: #120878;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 1.1em 2.7em;
+    margin-bottom: 0.6em;
+}
+
+#loadButton:hover:not(:disabled) {
+    background-color: #766ce8;
+    color: black;
+    transition: all 0.3s 0.1s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0.5em 0.5em -0.3em #7064ed;
+}
+
+#completeButton,
+#cancelButton {
+    background-color: #42b9c6;
+    color: black;
+    font-weight: bold;
+    padding: 1em 2em;
+    margin-right: 0.7em;
+}
+
+#completeButton:hover:not(:disabled),
+#cancelButton:hover:not(:disabled) {
+    background-color: #7eeaf7;
+    transition: all 0.3s 0.1s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0.5em 0.5em -0.3em #49e1f1;
+}
+
+.hidden {
+    display: none;
+}
+
+.selectedRow {
+    background-color: #7ce0eb;
+    font-weight: bold;
+}
+
+#addAndUpdatePanel {
+    border: solid thin #000000;
+    background-color: #dfdcdc;
+    border-radius: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 55%;
+}
+
+#btnPanel {
+    display: flex;
+    flex-wrap: wrap;
+}
